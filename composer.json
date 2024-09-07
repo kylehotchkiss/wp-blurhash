@@ -3,6 +3,7 @@
     "description": "Generate a Blurhash of images uploaded to Wordpress",
     "license": "MIT",
     "version": "1.0.0",
+    "type": "wordpress-plugin",
     "require": {
         "kornrunner/blurhash": "^1.2"
     },
