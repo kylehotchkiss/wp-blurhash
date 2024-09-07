@@ -5,12 +5,18 @@
     "version": "1.0.0",
     "type": "wordpress-plugin",
     "require": {
-        "kornrunner/blurhash": "^1.2"
+        "kornrunner/blurhash": "^1.2",
+        "composer/installers": "~1.0"
     },
     "authors": [
         {
             "name": "Kyle Hotchkiss",
             "email": "108172+kylehotchkiss@users.noreply.github.com"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }
