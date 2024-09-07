@@ -1,0 +1,15 @@
+{
+    "name": "kylehotchkiss/wp-blurhash",
+    "description": "Generate a Blurhash of images uploaded to Wordpress",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "kornrunner/blurhash": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Kyle Hotchkiss",
+            "email": "108172+kylehotchkiss@users.noreply.github.com"
+        }
+    ]
+}
